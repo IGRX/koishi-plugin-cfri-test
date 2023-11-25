@@ -15,7 +15,10 @@
     "types": [
       "node",
       "yml-register/types"
-    ]
+    ],
+    "paths": {
+      "@igrx/koishi-plugin-*": ["external/*/src"],
+    }
   },
   "include": [
     "src"
