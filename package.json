@@ -1,7 +1,7 @@
 {
   "name": "@igrx/koishi-plugin-cfri-test",
   "description": "基于Koishi框架及TypeScript编写的消院BOT，尚处于内部测试阶段",
-  "version": "0.0.2",
+  "version": "1.0.0-alpha.0",
   "contributors": [
     "EdmundAyanamiGRX <addekiana@gmail.com>",
     "Anyexyz <anyexyz@foxmail.com>"
@@ -15,7 +15,8 @@
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IGRX/koishi-plugin-cfri-test.git"},
+    "url": "git+https://github.com/IGRX/koishi-plugin-cfri-test.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
@@ -28,7 +29,9 @@
     "description": {
       "zh": "基于Koishi框架及TypeScript编写的消院BOT，尚处于内部测试阶段"
     },
-    "locales":["zh"],
+    "locales": [
+      "zh"
+    ],
     "preview": true
   }
 }
