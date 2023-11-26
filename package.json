@@ -1,7 +1,7 @@
 {
   "name": "@igrx/koishi-plugin-cfri-test",
   "description": "基于Koishi框架及TypeScript编写的消院BOT，尚处于内部测试阶段",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "contributors": [
     "EdmundAyanamiGRX <addekiana@gmail.com>",
     "Anyexyz <anyexyz@foxmail.com>"
