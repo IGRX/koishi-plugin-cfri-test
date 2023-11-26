@@ -1,11 +1,6 @@
 import { Context, Schema} from 'koishi'
 
-export interface Config { }
-
-export const Config: Schema<Config> = Schema.object({})
-
 export function get_info_status(ctx: Context) {
-
   ctx.command('cfr', '可获取当前状态，由cfri-test插件提供', { authority: 1 })
   .action(async ({session}) => {
     session?.execute('cfr -h')
@@ -35,8 +30,8 @@ export function get_info_status(ctx: Context) {
     }
   })
   try {
-    console.log(ctx.broadcast('cfrbot已启动'))
+    ctx.broadcast('get_info_status导入正常')
   } catch (error) { 
-    ctx.broadcast('cfrbot启动出错，请联系频道主')
+    ctx.broadcast('get_info_status导入错误')
   }
 }
